@@ -14,7 +14,12 @@ const questionsData = JSON.parse(fs.readFileSync(questionsPath, "utf-8"));
 
 const app = express();
 const server = http.createServer(app);
-const io = new Server(server);
+const io = new Server(server, {
+  cors: {
+    origin: ["https://rogersrounds.netlify.app"], // or "*" while testing
+    methods: ["GET", "POST"],
+  },
+});
 
 app.use(express.static(path.join(process.cwd(), "web", "dist")));
 app.use("/images", express.static(path.join(__dirname, "images")));
