@@ -130,7 +130,72 @@
       "question": "Which element has the chemical symbol 'O'?",
       "answer": "Oxygen"
     },
-    { "question": "What year did the Titanic sink?", "answer": "1912" }
+    { "question": "What year did the Titanic sink?", "answer": "1912" },
+    { "question": "What is the capital of Australia?", "answer": "Canberra" },
+    {
+      "question": "What colour are the stars on the flag of China?",
+      "answer": "Yellow"
+    },
+    { "question": "How many sides does a hexagon have?", "answer": "Six" },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "What gas do plants absorb during photosynthesis?",
+      "answer": "Carbon dioxide"
+    },
+    { "question": "What is the chemical symbol for gold?", "answer": "Au" },
+    {
+      "question": "What part of the cell contains genetic material?",
+      "answer": "Nucleus"
+    },
+    { "question": "What planet has the most moons?", "answer": "Jupiter" },
+    {
+      "question": "Which war ended with the Treaty of Versailles?",
+      "answer": "World War I"
+    },
+    {
+      "question": "Who played Jack in the film Titanic?",
+      "answer": "Leonardo DiCaprio"
+    },
+    {
+      "question": "Which band released the album 'A Night at the Opera'?",
+      "answer": "Queen"
+    },
+    {
+      "question": "What TV series features the character Eleven?",
+      "answer": "Stranger Things"
+    },
+    {
+      "question": "Who created the Star Wars franchise?",
+      "answer": "George Lucas"
+    },
+    {
+      "question": "Who wrote 'The Catcher in the Rye'?",
+      "answer": "J.D. Salinger"
+    },
+    {
+      "question": "What is the name of Sherlock Holmes’ assistant?",
+      "answer": "Dr. Watson"
+    },
+    { "question": "Which author created Narnia?", "answer": "C.S. Lewis" },
+    {
+      "question": "In Greek mythology, who flew too close to the sun?",
+      "answer": "Icarus"
+    },
+    { "question": "What is 15% of 200?", "answer": "30" },
+    { "question": "How many degrees are in a right angle?", "answer": "90" },
+    { "question": "What is the next prime number after 19?", "answer": "23" },
+    {
+      "question": "If a shape has four equal sides but no right angles, what is it?",
+      "answer": "Rhombus"
+    },
+    { "question": "What sport uses a shuttlecock?", "answer": "Badminton" },
+    {
+      "question": "Who has won the most Olympic gold medals?",
+      "answer": "Michael Phelps"
+    }
   ],
 
   "sequence": [
@@ -142,8 +207,7 @@
         { "text": "May", "image": null },
         { "text": "July", "image": null }
       ],
-      "answer": "August",
-      "points": [50, 30, 20, 10]
+      "answer": "August"
     },
     {
       "title": "US states alphabetical sample",
@@ -153,8 +217,7 @@
         { "text": "Arizona", "image": null },
         { "text": "Arkansas", "image": null }
       ],
-      "answer": "California",
-      "points": [50, 30, 20, 10]
+      "answer": "California"
     },
     {
       "title": "Chiwumbawumba Lyrics",
@@ -164,8 +227,200 @@
         { "text": null, "image": "/images/lager.jpg" },
         { "text": null, "image": "/images/cider.jpg" }
       ],
-      "answer": "Songs that remind him of the good times",
-      "points": [50, 30, 20, 10]
+      "answer": "Songs that remind him of the good times"
+    },
+    {
+      "title": "Recent UK PMs (chronological)",
+      "steps": [
+        { "text": "Theresa May", "image": null },
+        { "text": "Boris Johnson", "image": null },
+        { "text": "Liz Truss", "image": null },
+        { "text": "Rishi Sunak", "image": null }
+      ],
+      "answer": "Keir Starmer"
+    },
+    {
+      "title": "Roman Numerals",
+      "steps": [
+        { "text": "I" },
+        { "text": "V" },
+        { "text": "X" },
+        { "text": "L" }
+      ],
+      "answer": "C"
+    },
+    {
+      "title": "Summer Olympic Host Cities",
+      "steps": [
+        { "text": "Beijing" },
+        { "text": "London" },
+        { "text": "Rio" },
+        { "text": "Tokyo" }
+      ],
+      "answer": "Paris"
+    },
+    {
+      "title": "Largest UK Cities (population order)",
+      "steps": [
+        { "text": "London" },
+        { "text": "Birmingham" },
+        { "text": "Glasgow" },
+        { "text": "Liverpool" }
+      ],
+      "answer": "Bristol"
+    },
+    {
+      "title": "Alphabetical foods",
+      "steps": [
+        { "text": "Apple" },
+        { "text": "Banana" },
+        { "text": "Carrot" },
+        { "text": "Dates" }
+      ],
+      "answer": "Eggplant"
+    },
+    {
+      "title": "Words that increase letters by 1",
+      "steps": [
+        { "text": "I" },
+        { "text": "To" },
+        { "text": "Ear" },
+        { "text": "Oath" }
+      ],
+      "answer": "Plant"
+    },
+    {
+      "title": "Star Signs by dates",
+      "steps": [
+        { "text": "Capricorn" },
+        { "text": "Aquarius" },
+        { "text": "Pisces" },
+        { "text": "Aries" }
+      ],
+      "answer": "Taurus"
+    },
+    {
+      "title": "James Bond Actors (chronologically)",
+      "steps": [
+        { "text": "Sean Connery" },
+        { "text": "George Lazenby" },
+        { "text": "Roger Moore" },
+        { "text": "Timothy Dalton" }
+      ],
+      "answer": "Pierce Brosnan"
+    },
+    {
+      "title": "UK Political Parties Alphabetical",
+      "steps": [
+        { "text": "Conservatives" },
+        { "text": "Greens" },
+        { "text": "Labour" },
+        { "text": "Liberal Democrats" }
+      ],
+      "answer": "Plaid Cymru"
+    },
+    {
+      "title": "Increasing syllables",
+      "steps": [
+        { "text": "Cat", "image": null },
+        { "text": "Apple", "image": null },
+        { "text": "Banana", "image": null },
+        { "text": "Alligator", "image": null }
+      ],
+      "answer": "Hippopotamus"
+    }
+  ],
+
+  "link": [
+    {
+      "steps": [
+        { "text": "Orange", "image": null },
+        { "text": "Silver", "image": null },
+        { "text": "Purple", "image": null },
+        { "text": "Month", "image": null }
+      ],
+      "answer": "Words that famously have no perfect rhyme"
+    },
+    {
+      "steps": [
+        { "text": "Saw", "image": null },
+        { "text": "Scream", "image": null },
+        { "text": "It", "image": null },
+        { "text": "Us", "image": null }
+      ],
+      "answer": "Horror films with one-word titles"
+    },
+    {
+      "steps": [
+        { "text": "When it's raining", "image": null },
+        { "text": "When someone reveals a secret", "image": null },
+        { "text": "When someone is curious", "image": null },
+        { "text": "When someone returns home", "image": null }
+      ],
+      "answer": "Common idioms involving cats"
+    },
+    {
+      "steps": [
+        { "text": "Crown", "image": null },
+        { "text": "Mirror", "image": null },
+        { "text": "Things", "image": null },
+        { "text": "Witcher", "image": null }
+      ],
+      "answer": "Second Words in Popular Netflix Shows"
+    },
+    {
+      "steps": [
+        { "text": "Bank", "image": null },
+        { "text": "Pitch", "image": null },
+        { "text": "Bat", "image": null },
+        { "text": "Spring", "image": null }
+      ],
+      "answer": "Words with multiple meanings (homonyms)"
+    },
+    {
+      "steps": [
+        { "text": "Bank", "image": null },
+        { "text": "Pitch", "image": null },
+        { "text": "Bat", "image": null },
+        { "text": "Spring", "image": null }
+      ],
+      "answer": "Words with multiple meanings (homonyms)"
+    },
+    {
+      "steps": [
+        { "text": "Pure", "image": null },
+        { "text": "Moan", "image": null },
+        { "text": "Also", "image": null },
+        { "text": "Rain", "image": null }
+      ],
+      "answer": "Anagrams of countries"
+    },
+    {
+      "steps": [
+        { "text": "Crowned", "image": null },
+        { "text": "Swallowing", "image": null },
+        { "text": "Ravenous", "image": null },
+        { "text": "Beagle", "image": null }
+      ],
+      "answer": "Words with bird names hidden inside"
+    },
+    {
+      "steps": [
+        { "text": "Lawnmower", "image": null },
+        { "text": "Blooming", "image": null },
+        { "text": "Cruise Ship", "image": null },
+        { "text": "Diesel Engine", "image": null }
+      ],
+      "answer": "Famous actors last names"
+    },
+    {
+      "steps": [
+        { "text": "David Tennant", "image": null },
+        { "text": "Michael Owen", "image": null },
+        { "text": "Moses", "image": null },
+        { "text": "The Prime Minister", "image": null }
+      ],
+      "answer": "People associated with the number 10"
     }
   ]
 }

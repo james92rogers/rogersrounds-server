@@ -21,6 +21,15 @@ const io = new Server(server, {
   },
 });
 
+// USE FOR LOCAL TESTING ONLY
+
+// const io = new Server(server, {
+//   cors: {
+//     origin: ["*"], // or "*" while testing
+//     methods: ["GET", "POST"],
+//   },
+// });
+
 app.use(express.static(path.join(process.cwd(), "web", "dist")));
 app.use("/images", express.static(path.join(__dirname, "images")));
 
@@ -123,7 +132,7 @@ io.on("connection", (socket) => {
 
     if (question.type === "buzzer") {
       startBuzzerQuestion(g, question);
-    } else if (question.type === "sequence" || question.type === "links") {
+    } else if (question.type === "sequence" || question.type === "link") {
       startSequenceQuestion(g, question);
     } else {
       startMCQuestion(g, question);
@@ -237,7 +246,6 @@ io.on("connection", (socket) => {
       question: { ...question, index: r.questionIndex },
       steps: question.steps,
       correctAnswer: question.answer,
-      points: question.points || [50, 30, 20, 10],
     });
   }
 
